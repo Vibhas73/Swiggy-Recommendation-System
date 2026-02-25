@@ -46,9 +46,11 @@ The interactive dashboard allows users to dynamically discover restaurants.
 
 ## 🚀 How to Run the Project Locally
 
+**Copy and paste the 'swiggy.csv' data file directly into your new 'Swiggy-Recommendation-System' folder. Ensure the file is named exactly 'swiggy.csv'.**
+
 **1. Clone the repository:**
 ```bash
-git clone <your-github-repo-url>
-cd swiggy_recommendation_project
+git clone [<your-github-repo-url>](https://github.com/Vibhas73/Swiggy-Recommendation-System.git)
+cd Swiggy-Recommendation-System
 python data_preparation.py
 python -m streamlit run app.py
